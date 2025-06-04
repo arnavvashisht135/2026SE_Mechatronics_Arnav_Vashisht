@@ -31,5 +31,6 @@
     "python": false,
     "html": false,
     "css": false
-  }
+  },
+  "chat.agent.enabled": false
 }
