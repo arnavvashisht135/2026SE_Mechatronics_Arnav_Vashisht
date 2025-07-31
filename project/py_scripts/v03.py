@@ -1,3 +1,18 @@
+"""
+Sample code for servo library, demonstrating instantiation
+and setting angles for a continuous servo the resulting wheel speed
+of a set_duty(x) call are:
+
+| Set duty |  Speed  | Direction |
+| -------- | ------- | --------- |
+|   500    | Fast    | Backward  |
+|   1400   | Slow    | Backward  |
+|   1500   | Stopped | None      |
+|   1600   | Slow    | Forward   |
+|   2500   | Fast    | Forward   |
+
+"""
+
 import time
 from machine import Pin, PWM
 from servo import Servo

@@ -1,3 +1,9 @@
+"""
+Sample simple servo smoothing, which reduces
+jerk, vibration, and mechanical stress by softening
+transitions between target positions.
+"""
+
 import utime
 from machine import Pin, PWM
 from servo import Servo

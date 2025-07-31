@@ -1,3 +1,16 @@
+"""
+Sample code for servo library, demonstrating instantiation
+and setting angles for a positional servo. The resulting angles
+of a set_angle(x) call are:
+
+| Set angle | 180 Servo | 270 Servo |
+| --------- | --------- | --------- |
+|     0     |     0     |     0     |
+|     90    |     90    |     135   |
+|     180   |     180   |     270   |
+
+"""
+
 import time
 from servo import Servo
 from machine import Pin, PWM

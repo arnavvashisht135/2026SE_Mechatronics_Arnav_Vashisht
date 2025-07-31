@@ -82,8 +82,5 @@ except RuntimeError as e:
     print("This is a runtime catch all error.")
     print("You may want to check the error code or take this error to your teacher.")
     print("--- Traceback ---")
-<<<<<<< HEAD
     sys.print_exception(e)
-=======
     sys.print_exception(e)
->>>>>>> 8620820987bbd592c755b390ec758e6a9174c3a4
