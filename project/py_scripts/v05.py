@@ -9,7 +9,6 @@ from machine import Pin, PWM
 from servo import Servo
 from machine import RTC
 
-
 # create a PWM servo controller (16 - pin Pico)
 servo_pwm = PWM(Pin(16))
 rtc = RTC()
@@ -56,7 +55,6 @@ def smooth_change():
     ):
         change_tick = 0
     print(f"Servo value is now: {servo_value}")  # debugging only then remove
-
 
 while True:
     my_servo.set_duty(servo_value)

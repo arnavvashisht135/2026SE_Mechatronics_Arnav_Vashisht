@@ -31,15 +31,18 @@ dead_zone_us = 1500
 my_servo = Servo(
     pwm=servo_pwm, min_us=min_us, max_us=max_us, dead_zone_us=dead_zone_us, freq=freq
 )
-
+my_servo2 = Servo(pwm=servo_pwm2)
 
 while True:
     # manually set the servo duty time
     my_servo.set_duty(500)
+    my_servo2.set_duty(1500)
     time.sleep(2)
 
     my_servo.set_duty(1500)
+    my_servo2.set_duty(500)
     time.sleep(2)
 
     my_servo.stop()
+    my_servo2.stop()
     time.sleep(2)

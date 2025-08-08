@@ -37,7 +37,8 @@ while True:
 
     # Set the Servo to the left most position
     my_servo.set_angle(90)
-    time.sleep(2)  # Wait for 1 second
+    time.sleep(2)  # Wait
+    for 1 second
     print("Servo Stop")
 
     # Set the Servo to the right most position
@@ -49,3 +50,5 @@ while True:
     my_servo.set_angle(90)
     time.sleep(2)  # Wait for 1 second
     print("Servo Stop")
+    
+
